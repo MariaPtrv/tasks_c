@@ -29,17 +29,14 @@ int input(int *a)
         if (scanf("%d%c", &(a[i]), &c) != 2)
         {
             error = 1;
-            printf("ERROR");
         }
         else if (i == SIZE - 1 && c != '\n')
         {
             error = 1;
-            printf("ERROR 2");
         }
         else if (i < SIZE - 1 && c != ' ')
         {
             error = 1;
-            printf("ERROR 3");
         }
     }
 
