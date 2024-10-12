@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/mrptrv/Documents/School21/tasks_c/w2/Day 9/sort'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C20, symSize: 0x8C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003C20, symSize: 0x8C }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _input, symObjAddr: 0x8C, symBinAddr: 0x100003CAC, symSize: 0x110 }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _sort, symObjAddr: 0x19C, symBinAddr: 0x100003DBC, symSize: 0xEC }
+  - { offsetInCU: 0x14F, offset: 0x14F, size: 0x8, addend: 0x0, symName: _output, symObjAddr: 0x288, symBinAddr: 0x100003EA8, symSize: 0xC4 }
+...
